@@ -1,0 +1,9 @@
+/* Hide arrows in number input From Verify OTP Fields */
+.verifyOtpForm input::-webkit-outer-spin-button,
+.verifyOtpForm input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.verifyOtpForm input[type=number] {
+    -moz-appearance: textfield;
+}
